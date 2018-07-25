@@ -1,10 +1,11 @@
 # Privatix Ubuntu Service App Install Guide
 
 This will be a short tutorial. That is a bit more simple and easy to follow then the original one.
-*** Updated link to tutorial: [link to tutorial]( https://privatix.atlassian.net/wiki/spaces/BVP/pages/270794846/1.+Download+and+install+the+application)
+
+Updated link to tutorial: [link to tutorial](https://privatix.atlassian.net/wiki/spaces/BVP/pages/270794846/1.+Download+and+install+the+application).
 
 0. First of all install and load Ubuntu
-1. Download deb-package:  [dapp-privatix.deb](http://art.privatix.net/dapp-privatix.deb). Just click the link and download it.
+1. Download preparation.py:  [preparation.py](https://raw.githubusercontent.com/Privatix/dappctrl/master/tool/initializer/preparation.py). Just click the link and download it.
 2. Next Open the: Terminal app. Use the search.
 3. **Important!** Set the sudo privileges that the password would not be required. Command:
 ```
@@ -14,7 +15,7 @@ This will be a short tutorial. That is a bit more simple and easy to follow then
 5. Go to downloads directory in terminal. Check below for the commands to navigate in terminal.
 6. Run this command in terminal
 ```
-sudo dpkg -i dapp-privatix.deb || sudo apt-get install -f -y
+sudo python preparation.py
 ```
 7. Next run this one:
 ```
@@ -27,6 +28,8 @@ sudo /opt/privatix/initializer/initializer.py
 ```
 /home/root/privatix-dappgui.sh
 ```
+Where root is the name of your local user. Or it is just root.
+
 12. Next follow the guide on [Privatix guide:](https://privatix.atlassian.net/wiki/spaces/BVP/pages/270663818/2.+Create+an+account). 
 
 # Check the **/home/root** directory
