@@ -51,3 +51,11 @@ Follow these steps:
 - sudo cp -r /home/temp /home/root
 - sudo chown -R root.root /home/root
 - sudo deluser temp
+
+#How to manually remove the Privatix
+If you want to fully remove you have to delete the files in two locations if you want to reinstall Privatix.
+```
+Use: rm -r to delete a directory
+```
+1. /opt/privatix
+2. 
