@@ -1,6 +1,7 @@
 # Privatix Ubuntu Service App Install Guide
 
 This will be a short tutorial. That is a bit more simple and easy to follow then the original one.
+*** Updated link to tutorial: [link to tutorial]( https://privatix.atlassian.net/wiki/spaces/BVP/pages/270794846/1.+Download+and+install+the+application)
 
 0. First of all install and load Ubuntu
 1. Download deb-package:  [dapp-privatix.deb](http://art.privatix.net/dapp-privatix.deb). Just click the link and download it.
